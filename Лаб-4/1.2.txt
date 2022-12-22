@@ -1,0 +1,22 @@
+mydic = {
+    
+	'Kolia':['man','5'],
+
+	'Irina':['woman','4'],
+
+	'Oleg':['man','4'],
+
+	'Tolia':['man','3']
+
+}
+
+
+prov_elem1 = ['man', '4']
+
+prov_elem2 = ['man', '5']
+
+
+for i in mydic:
+	if (mydic[i] == prov_elem2) or (mydic[i] ==prov_elem1):
+        
+		print(i)

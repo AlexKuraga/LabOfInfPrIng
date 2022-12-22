@@ -1,0 +1,11 @@
+def f1(x):
+    
+	return lambda f2 : 4 + x
+
+print(f1(4))
+
+результат:
+
+<function f1.<locals>.<lambda> at 0x7f84d1085dc0>
+
+

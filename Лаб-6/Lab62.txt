@@ -1,0 +1,20 @@
+def f1(x):
+    
+	x += 6
+    
+	return x 
+
+def f2(f, x):
+    
+	y = x + 2
+    
+	return f(y)
+
+print(f1)
+
+print(f2(f1, 3))
+
+результат:
+
+<function f1 at 0x7ff2a7810d30>
+11
